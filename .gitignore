@@ -1,24 +1,29 @@
-# Logs
-logs
+# Ignore the past mistakes
+*.js.map
+
+# Ignore me when I'm not on call
+node_modules/
+
+# Ignore the ever-growing node_modules folder
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ignoring my hopes and dreams
+*.idea/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Ignore all the files I forgot to add earlier
+*.swp
+
+# Ignore unnecessary stress
+.env
+
+# Ignore all of the uncommitted changes that were too risky
+*.bak
+
+# Ignore my emotional baggage
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Ignore old love letters
+*.bak
+
+# Ignore anything that’s not bringing me closer to success
+*.tmp
